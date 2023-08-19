@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MY PORTFOLIO</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="about" class="text-white text-center py-5" class="head">
+        <div class="container">
+            <h1>Hello, I am Chinmaya Kumar Jagadev</h1>
+            <p>Software Developer / Web Designer/ UX Designer</p>
+
+            <p class="mt-5"><i>Experienced software developer with proficient knowledge in React development.
+                    Have worked in domains like online Auction-Bid, banking and school management based projects.
+                    Thorough knowledge in web development using React js and Javascript.
+                    Worked on databases like firebase, MySQL and Oracle with a good knowledge in SQL.
+                    Experience in using devops tools like git version control.
+                    Desire to learn more and keep up-to-date on technologies.
+                </i> </p>
+        </div>
+    </section>
+
+    <section class="qualification">
+        <button id="showTableBtn"><b>Check Out My Qualifications &nbsp; &nbsp;<i class="fas fa-arrow-right"></i>
+            </b></button>
+        <table id="myTable" class="hidden">
+            <thead class="table-info">
+                <tr>
+                    <th>Course</th>
+                    <th>Board</th>
+                    <th>Discipline</th>
+                    <th>Aggregate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BTech
+                        ( 2016-2020 )
+                    </td>
+                    <td> Trident Academy of Technology,
+                        Bhubaneswar</td>
+                    <td>CSE</td>
+                    <td> 83%</td>
+                </tr>
+
+                <tr>
+                    <td> +2
+                        ( 2014-2016 )
+                    </td>
+                    <td> Maharishi College Of Natural Law</td>
+                    <td>Science</td>
+                    <td> 69.66%%</td>
+                </tr>
+
+                <tr>
+                    <td> 10th ( 2014 )
+                    </td>
+                    <td> Capital High School</td>
+                    <td>Math</td>
+                    <td>77%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="text-white text-center py-5" id="skills">
+        <button id="showTableBtnSkill"><b>Check My Skill & Technology</b> &nbsp; &nbsp;<i
+                class="fas fa-arrow-right"></i></button>
+        <div class="hidden" id="mySkills">
+            <div class="skill">
+                <span class="skill-name text-white">React JS</span>
+                <div class="progress">
+                    <div class="progress-bars" style="width: 90%;" data-percent="90%">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name text-white">Javascript</span>
+                <div class="progress">
+                    <div class="progress-bars" style="width: 80%;" data-percent="80%">80%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span class="skill-name text-white">HTML</span>
+                <div class="progress">
+                    <div class="progress-bars" style="width: 80%;" data-percent="80%">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name text-white">CSS</span>
+                <div class="progress">
+                    <div class="progress-bars" style="width: 75%;" data-percent="75%">75%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name text-white">Bootstrap</span>
+                <div class="progress">
+                    <div class="progress-bars" style="width: 75%;" data-percent="75%">75%</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./Javascript/index.js"></script>
+</body>
